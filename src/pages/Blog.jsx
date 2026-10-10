@@ -4,6 +4,7 @@ import Container from '../components/Container/Container';
 import SEO from '../components/SEO/SEO';
 import { BLOGS, getBlogsBySection } from '../data/blogs';
 import { CATEGORIES, getCategoryBySlug } from '../data/categories';
+import { SITE } from '../config/site';
 import NotFound from './NotFound';
 import './Blog.css';
 
@@ -18,7 +19,7 @@ export default function Blog() {
   const title = category ? category.title : 'All Articles';
   const description = category
     ? category.description
-    : 'Every MoneyBrief guide on personal finance, saving, investing, banking and the economy.';
+    : `Every ${SITE.name} guide on personal finance, saving, investing, banking and the economy.`;
 
   return (
     <>

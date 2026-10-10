@@ -1,6 +1,6 @@
 import { useCallback, useState } from 'react';
 
-const STORAGE_KEY = 'mb-theme';
+const STORAGE_KEY = 'ff-theme';
 
 function currentTheme() {
   return document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';

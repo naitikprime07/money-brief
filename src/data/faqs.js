@@ -30,8 +30,8 @@ export const FAQS = [
       'A credit score is a number summarising how reliably you repay borrowed money. The biggest levers are paying every bill on time, keeping card balances low compared with your limit, avoiding several loan applications in a short window, and keeping older accounts open and active. Improvements are gradual — consistent behaviour over months shows in the score.',
   },
   {
-    question: 'Does MoneyBrief give investment advice?',
+    question: 'Does FinzoriaFinance give investment advice?',
     answer:
-      'No. Every article on MoneyBrief is for general education only and is not personalised financial, tax or investment advice. Markets involve risk, and rules differ by country and situation. Before acting on anything you read here, consider consulting a qualified financial professional about your own circumstances.',
+      'No. Every article on FinzoriaFinance is for general education only and is not personalised financial, tax or investment advice. Markets involve risk, and rules differ by country and situation. Before acting on anything you read here, consider consulting a qualified financial professional about your own circumstances.',
   },
 ];

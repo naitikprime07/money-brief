@@ -24,7 +24,7 @@ const RAW_BLOGS = [
       'Compounding means earning returns on your past returns. See why time is the most powerful ingredient in growing money.',
     isoDate: '2026-10-03',
     author: 'Markets Team',
-    imageAlt: 'Upward curving growth line with stacked coins of increasing height, illustrating compounding',
+    imageAlt: 'Two stacks of coins on a dark table with a young green plant sprouting between them, a bright window behind',
     content: [
       p('Compound interest is interest earned not only on your original money, but also on the interest it has already earned. Over long periods, this snowball effect can make a dramatic difference — which is why it is often called the most important concept in personal finance.'),
       h2('Simple vs. Compound Interest'),
@@ -60,7 +60,7 @@ const RAW_BLOGS = [
       'Investing is how savings grow faster than inflation over time. Here are the core concepts every beginner should understand first.',
     isoDate: '2026-10-06',
     author: 'Markets Team',
-    imageAlt: 'Rising line chart with upward arrow over a grid, representing long-term investment growth',
+    imageAlt: 'An investor seen from behind studying a price chart on a laptop, printed financial reports spread across the desk',
     content: [
       p('Investing means putting money into assets — such as shares, bonds or funds — with the expectation that they will grow in value or produce income over time. Unlike a savings account, investments can fall in value, which is why understanding the basics matters before you begin.'),
       h2('Saving vs. Investing'),
@@ -97,7 +97,7 @@ const RAW_BLOGS = [
     isoDate: '2026-10-08',
     author: 'Finance Desk',
     featured: true,
-    imageAlt: 'Glass savings jar filled with coins beside a shield symbolising financial protection',
+    imageAlt: 'A hand holding a glass jar filled with folded banknotes against a pink wall, a handwritten note stuck on the front',
     content: [
       p('An emergency fund is one of the foundations of personal financial planning. It is money set aside specifically for unexpected events — a job loss, a medical bill, an urgent car or home repair — so you are not forced to borrow at high interest or sell long-term investments at a bad time.'),
       h2('Why an Emergency Fund Matters'),
@@ -134,7 +134,7 @@ const RAW_BLOGS = [
       'Saving more rarely means giving up everything you enjoy. These practical habits free up cash without feeling like deprivation.',
     isoDate: '2026-09-30',
     author: 'Finance Desk',
-    imageAlt: 'Piggy bank with a coin dropping in, symbolising regular monthly savings',
+    imageAlt: 'A hand dropping a coin into the slot of a blue ceramic piggy bank',
     content: [
       p('Saving money consistently has less to do with willpower and more to do with systems. Small, repeatable changes to how money flows through your month usually beat dramatic short-lived cutbacks.'),
       h2('Pay Yourself First'),
@@ -168,7 +168,7 @@ const RAW_BLOGS = [
       'Mutual funds pool money from many investors into a professionally managed portfolio. Learn the types, costs and terms that matter.',
     isoDate: '2026-09-27',
     author: 'Markets Team',
-    imageAlt: 'Pie chart divided into colourful segments, representing a diversified fund portfolio',
+    imageAlt: 'Gold and silver cryptocurrency tokens resting on a spread of hundred-dollar bills',
     content: [
       p('A mutual fund pools money from many investors and invests it in a portfolio of stocks, bonds or other assets. Each investor owns units of the fund, and the value of those units rises or falls with the underlying investments.'),
       h2('Why People Use Mutual Funds'),
@@ -207,7 +207,7 @@ const RAW_BLOGS = [
       'Your credit score influences loan approvals and interest rates. Here is what shapes it and how healthy habits improve it over time.',
     isoDate: '2026-09-24',
     author: 'Banking Desk',
-    imageAlt: 'Semi-circular credit score gauge with the needle pointing towards the good range',
+    imageAlt: 'Wooden letter tiles arranged to spell the word CREDIT on a rustic timber surface',
     content: [
       p('A credit score is a number that summarises how reliably you have handled borrowed money. Lenders use it to judge the risk of lending to you, and it can affect whether you are approved and the interest rate you are offered.'),
       h2('What Affects Your Score'),
@@ -243,7 +243,7 @@ const RAW_BLOGS = [
       'A budget is simply a plan for your money. Follow these steps to build one that is realistic, flexible and easy to maintain.',
     isoDate: '2026-09-21',
     author: 'Finance Desk',
-    imageAlt: 'Monthly calendar with a calculator and categorised expense notes for budgeting',
+    imageAlt: 'A hand writing figures in a notebook beside a calculator and a stack of fifty-dollar notes',
     content: [
       p('A budget is a plan that tells your money where to go before the month begins. It is not about restriction — it is about making sure your spending reflects your priorities and that you are making progress towards your goals.'),
       h2('Step 1: Know Your Income'),
@@ -281,7 +281,7 @@ const RAW_BLOGS = [
       'What actually happens when you buy a share? A clear introduction to exchanges, indices, prices and the risks involved.',
     isoDate: '2026-09-18',
     author: 'Markets Team',
-    imageAlt: 'Candlestick stock chart with green and red bars on a trading screen',
+    imageAlt: 'Green and red candlestick bars on a dark trading screen, photographed at an angle',
     content: [
       p('The stock market is a network of exchanges where shares of public companies are bought and sold. When you buy a share, you own a small piece of that company and participate in its potential growth — and its risks.'),
       h2('How Share Prices Move'),
@@ -319,7 +319,7 @@ const RAW_BLOGS = [
       'Inflation quietly reduces what your money can buy. Understand how it works and how it affects savings, debt and investments.',
     isoDate: '2026-09-15',
     author: 'Economy Desk',
-    imageAlt: 'Shopping basket beside rising price tags and a shrinking banknote, illustrating inflation',
+    imageAlt: 'A woman with a shopping trolley reaching up for a shelf of groceries in a supermarket aisle',
     content: [
       p('Inflation is the general rise in prices over time. As prices increase, each unit of currency buys a little less than before. Moderate inflation is normal in a growing economy, but it has real consequences for how you save and plan.'),
       h2('What Causes Inflation?'),
@@ -354,7 +354,7 @@ const RAW_BLOGS = [
       'The habits you form in your twenties shape decades of financial outcomes. A practical roadmap for getting the fundamentals right.',
     isoDate: '2026-09-12',
     author: 'Finance Desk',
-    imageAlt: 'Roadmap path with milestone flags representing long-term financial goals',
+    imageAlt: 'A couple at a kitchen table with a calculator, paperwork and a laptop, reviewing household finances together',
     content: [
       p('Your early working years are a powerful time to build financial habits. You may not earn the most yet, but you have the greatest asset of all for compounding: time.'),
       h2('Start With the Foundations'),
@@ -389,7 +389,7 @@ const RAW_BLOGS = [
       'Used well, a credit card offers convenience and protection. Used carelessly, it becomes expensive debt. Here is how to stay on the right side.',
     isoDate: '2026-09-09',
     author: 'Banking Desk',
-    imageAlt: 'Credit card with a contactless symbol resting on a wallet',
+    imageAlt: 'A customer tapping a contactless bank card against a card terminal at a shop counter',
     content: [
       p('A credit card lets you borrow up to a set limit and repay later. If you pay the full statement balance by the due date, many cards charge no interest at all. Problems usually begin when balances are carried from month to month.'),
       h2('How Credit Card Interest Works'),
@@ -423,7 +423,7 @@ const RAW_BLOGS = [
       'Before you borrow, understand how interest rates, tenure and EMIs determine the true cost of a loan.',
     isoDate: '2026-09-06',
     author: 'Banking Desk',
-    imageAlt: 'House and car icons connected to a percentage symbol, representing loan interest rates',
+    imageAlt: 'A calculator and a house-shaped key fob resting on a spread of mortgage brochures',
     content: [
       p('A loan lets you spread the cost of a large expense over time, but you pay for that convenience through interest. Understanding how loans are priced helps you compare offers and borrow only what you can comfortably repay.'),
       h2('Key Loan Terms'),
@@ -460,7 +460,7 @@ const RAW_BLOGS = [
       'Taxes affect every paycheck and investment. These core concepts make tax season less confusing, wherever you live.',
     isoDate: '2026-09-03',
     author: 'Finance Desk',
-    imageAlt: 'Tax form with a pen and calculator on a desk',
+    imageAlt: 'An overhead view of a hand completing a printed income tax return form with a pen, a small calculator and a TAX label card beside it',
     content: [
       p('Tax rules vary by country and change frequently, but several concepts apply almost everywhere. Understanding them helps you read your payslip, keep better records and have more productive conversations with a tax professional.'),
       h2('Gross vs. Taxable Income'),
@@ -495,7 +495,7 @@ const RAW_BLOGS = [
       'Profitable businesses can still fail if cash runs short. Learn the fundamentals of tracking, forecasting and protecting cash flow.',
     isoDate: '2026-08-31',
     author: 'Economy Desk',
-    imageAlt: 'Storefront with arrows flowing in and out between coins, representing business cash flow',
+    imageAlt: 'A cafe owner handing change to a customer across the counter, a menu board on the wall behind',
     content: [
       p('Cash flow is the movement of money into and out of a business. A company can be profitable on paper and still struggle if customers pay late while bills are due now. Managing cash flow is one of the most important skills for any business owner.'),
       h2('Profit Is Not the Same as Cash'),
@@ -532,33 +532,36 @@ const formatDate = (iso) =>
   new Date(`${iso}T00:00:00`).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
 /**
- * Real photography per article (Pexels CDN, free to use, no attribution
- * required). Falls back to the local illustration if a slug has no entry.
+ * Article photographs live in public/images/photos/ and are served from our own
+ * origin — the site makes no third-party image request. They were fetched once by
+ * scripts/fetch-photos.ps1 and are used under the Pexels Licence (free for
+ * commercial use, no attribution required). Copyright stays with each
+ * photographer, so the Terms page never describes photographs as our own work.
+ *
+ * imageAlt below describes what each photograph actually shows.
  */
-const pexels = (id) => `https://images.pexels.com/photos/${id}/pexels-photo-${id}.jpeg?auto=compress&cs=tinysrgb&w=1200`;
-
 const IMAGES = {
-  'how-to-build-an-emergency-fund': pexels(7010128),
-  'beginners-guide-to-investing': pexels(5716016),
-  'how-compound-interest-works': pexels(11391951),
-  'smart-ways-to-save-money': pexels(1602726),
-  'understanding-mutual-funds': pexels(730564),
-  'what-is-a-credit-score': pexels(19867473),
-  'how-to-create-a-monthly-budget': pexels(4386339),
-  'stock-market-basics-for-beginners': pexels(6770610),
-  'how-inflation-affects-your-money': pexels(4971967),
-  'financial-planning-for-young-adults': pexels(6963046),
-  'how-to-use-credit-cards-responsibly': pexels(5239818),
-  'understanding-loans-and-interest-rates': pexels(8293750),
-  'tax-basics-everyone-should-know': pexels(6863337),
-  'how-small-businesses-manage-cash-flow': pexels(4921267),
+  'how-to-build-an-emergency-fund': '/images/photos/how-to-build-an-emergency-fund.jpg',
+  'beginners-guide-to-investing': '/images/photos/beginners-guide-to-investing.jpg',
+  'how-compound-interest-works': '/images/photos/how-compound-interest-works.jpg',
+  'smart-ways-to-save-money': '/images/photos/smart-ways-to-save-money.jpg',
+  'understanding-mutual-funds': '/images/photos/understanding-mutual-funds.jpg',
+  'what-is-a-credit-score': '/images/photos/what-is-a-credit-score.jpg',
+  'how-to-create-a-monthly-budget': '/images/photos/how-to-create-a-monthly-budget.jpg',
+  'stock-market-basics-for-beginners': '/images/photos/stock-market-basics-for-beginners.jpg',
+  'how-inflation-affects-your-money': '/images/photos/how-inflation-affects-your-money.jpg',
+  'financial-planning-for-young-adults': '/images/photos/financial-planning-for-young-adults.jpg',
+  'how-to-use-credit-cards-responsibly': '/images/photos/how-to-use-credit-cards-responsibly.jpg',
+  'understanding-loans-and-interest-rates': '/images/photos/understanding-loans-and-interest-rates.jpg',
+  'tax-basics-everyone-should-know': '/images/photos/tax-basics-everyone-should-know.jpg',
+  'how-small-businesses-manage-cash-flow': '/images/photos/how-small-businesses-manage-cash-flow.jpg',
 };
 
-/** Final article objects: derived fields (image path, readable date, read time) are computed once. */
+/** Final article objects: derived fields (image paths, date, read time) are computed once. */
 export const BLOGS = RAW_BLOGS.map((blog) => ({
   ...blog,
-  image: IMAGES[blog.slug] ?? `/images/${blog.slug}.svg`,
-  ogImage: `/images/og/${blog.slug}.png`, // raster copy for social previews
+  image: IMAGES[blog.slug],
+  ogImage: `/images/og/${blog.slug}.png`, // our own illustration, used for social previews only
   date: formatDate(blog.isoDate),
   readTime: Math.max(1, Math.round(wordCount(blog.content) / 160)),
 })).sort((a, b) => b.isoDate.localeCompare(a.isoDate));

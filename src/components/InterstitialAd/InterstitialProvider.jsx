@@ -154,7 +154,6 @@ export default function InterstitialProvider({ children }) {
       visibleRef.current = false; // wait for proof the ad actually appeared
       pendingRef.current = to;
       gateRef.current.show();
-
       // Visibility check: if the ad doesn't appear on screen almost at once,
       // it isn't coming — resume navigation immediately and reload the slot
       // in the background so the next click still has an ad ready.

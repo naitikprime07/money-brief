@@ -1,10 +1,10 @@
 export const SITE = {
-  name: 'MoneyBrief',
+  name: 'FinzoriaFinance',
   tagline: 'Clear, practical money education',
   description:
-    'MoneyBrief explains personal finance, saving, investing, banking and the economy in plain language — educational guides for everyday financial decisions.',
+    'FinzoriaFinance explains personal finance, saving, investing, banking and the economy in plain language — educational guides for everyday financial decisions.',
   /** Used to build canonical and Open Graph URLs. Set VITE_SITE_URL in production. */
-  url: (import.meta.env.VITE_SITE_URL || 'https://www.example.com').replace(/\/$/, ''),
+  url: (import.meta.env.VITE_SITE_URL || 'https://finzoriafinance.com').replace(/\/$/, ''),
   defaultImage: '/images/og/og-default.png',
   locale: 'en_US',
 };
