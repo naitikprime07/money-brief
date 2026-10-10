@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b5d47" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://securepubads.g.doubleclick.net" crossorigin />
+    <!-- Fonts use the native system stack (iOS SF Pro on Apple devices) — no webfont download. -->
+    <!-- Title, description, canonical and Open Graph tags are rendered per page by <SEO />. -->
+    <script>
+      /* Apply saved theme before first paint so there is no light flash on load. */
+      (function () {
+        try {
+          if (localStorage.getItem('mb-theme') === 'dark') {
+            document.documentElement.setAttribute('data-theme', 'dark');
+          }
+        } catch (e) { /* storage unavailable — stay light */ }
+      })();
+    </script>
+    <style>
+      /* Instant splash shown while the app bundle loads; faded out by main.jsx. */
+      #app-splash {
+        position: fixed;
+        inset: 0;
+        z-index: 9999;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 26px;
+        background: #fbfaf7;
+        transition: opacity 0.4s ease, visibility 0.4s ease;
+      }
+      #app-splash.is-hidden {
+        opacity: 0;
+        visibility: hidden;
+      }
+      .app-splash__brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        animation: app-splash-in 0.5s ease both;
+      }
+      .app-splash__mark {
+        width: 46px;
+        height: 46px;
+        display: block;
+        filter: drop-shadow(0 3px 8px rgba(11, 93, 71, 0.3));
+      }
+      .app-splash__name {
+        font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif;
+        font-size: 1.35rem;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+        color: #13202b;
+      }
+      .app-splash__bar {
+        position: relative;
+        width: 130px;
+        height: 3px;
+        border-radius: 99px;
+        background: #e4e1d8;
+        overflow: hidden;
+      }
+      .app-splash__bar::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 40%;
+        border-radius: inherit;
+        background: #0b5d47;
+        animation: app-splash-slide 1s ease-in-out infinite;
+      }
+      @keyframes app-splash-slide {
+        0% { left: -40%; }
+        100% { left: 100%; }
+      }
+      @keyframes app-splash-in {
+        from { opacity: 0; transform: translateY(8px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        #app-splash { transition-duration: 0.01ms; }
+        .app-splash__brand { animation: none; }
+        .app-splash__bar::after { animation-duration: 2s; }
+      }
+      /* Splash follows the saved dark theme too. */
+      html[data-theme='dark'] #app-splash {
+        background: #0a1626;
+      }
+      html[data-theme='dark'] .app-splash__name {
+        color: #e8eef7;
+      }
+      html[data-theme='dark'] .app-splash__bar {
+        background: #223753;
+      }
+      html[data-theme='dark'] .app-splash__bar::after {
+        background: #3f8cff;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app-splash" aria-hidden="true">
+      <div class="app-splash__brand">
+        <svg class="app-splash__mark" viewBox="0 0 48 48" aria-hidden="true">
+          <defs>
+            <linearGradient id="mbSplashLogoBg" x1="6" y1="4" x2="42" y2="44" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#118a6b"/>
+              <stop offset="0.55" stop-color="#0b5d47"/>
+              <stop offset="1" stop-color="#06402f"/>
+            </linearGradient>
+          </defs>
+          <rect width="48" height="48" rx="13" fill="url(#mbSplashLogoBg)"/>
+          <rect x="0.75" y="0.75" width="46.5" height="46.5" rx="12.25" fill="none" stroke="rgba(255,255,255,0.16)" stroke-width="1.5"/>
+          <rect x="10.5" y="27" width="7" height="10.5" rx="3.5" fill="#ffffff" opacity="0.85"/>
+          <rect x="20.5" y="19.5" width="7" height="18" rx="3.5" fill="#ffffff"/>
+          <rect x="30.5" y="11" width="7" height="26.5" rx="3.5" fill="#f5c451"/>
+          <circle cx="34" cy="7" r="1.8" fill="#f5c451" opacity="0.9"/>
+        </svg>
+        <span class="app-splash__name">MoneyBrief</span>
+      </div>
+      <span class="app-splash__bar"></span>
+    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
